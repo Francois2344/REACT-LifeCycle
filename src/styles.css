@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fff;
+}
+
+.App-header {
+  text-align: center;
+  background: #444;
+  color: #eee;
+  padding: 30px 0;
+}
+
+.CharacterList {
+  text-align: center;
+}
+
+.CharacterDetails {
+  display: flex;
+  padding: 30px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.CharacterDetails img {
+  max-width: 64px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.App-header li:before {
+  content: '\2022';
+  margin-right: 5px;
+}
+
+a {
+  color: #79d;
+}
+
+a:hover {
+  color: #9bf;
+}
